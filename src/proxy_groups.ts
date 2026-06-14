@@ -332,6 +332,36 @@ export function buildProxyGroups({
             type: "select",
             proxies: ["REJECT", "REJECT-DROP", "DIRECT"],
         },
+        {
+            name: PROXY_GROUPS.PIXIV,
+            icon: `${CDN_URL}/gh/siinanano/override-rules@master/icons/pixiv.png`,
+            type: "select",
+            proxies: defaultProxies,
+        },
+        {
+            name: PROXY_GROUPS.NIKKE,
+            icon: `${CDN_URL}/gh/siinanano/override-rules@master/icons/nikke.png`,
+            type: "select",
+            proxies: defaultProxies,
+        },
+        {
+            name: PROXY_GROUPS.DLSITE,
+            icon: `${CDN_URL}/gh/siinanano/override-rules@master/icons/dlsite.jpg`,
+            type: "select",
+            proxies: defaultProxies,
+        },
+        {
+            name: PROXY_GROUPS.BANGUMI,
+            icon: `${CDN_URL}/gh/siinanano/override-rules@master/icons/bangumi.png`,
+            type: "select",
+            proxies: defaultProxies,
+        },
+        {
+            name: PROXY_GROUPS.STEAM,
+            icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/Steam.png`,
+            type: "select",
+            proxies: defaultProxies,
+        },
         lowCostNodes.length > 0 || regexFilter
             ? buildGroupByType({
                   name: PROXY_GROUPS.LOW_COST,

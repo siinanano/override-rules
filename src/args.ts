@@ -42,7 +42,7 @@ export function buildFeatureFlags(args: ScriptArgs): FeatureFlags {
         fakeIPEnabled: parseBool(args.fakeip, true),
         quicEnabled: parseBool(args.quic),
         regexFilter: parseBool(args.regex),
-        tunEnabled: parseBool(args.tun),
+        tunEnabled: parseBool(args.tun, true),
         countryThreshold: parseNumber(args.threshold, 0),
     };
 }
