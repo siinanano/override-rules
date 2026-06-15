@@ -114,4 +114,12 @@ export const ruleProviders: Record<string, RuleProvider> = {
         url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Steam.list`,
         path: "./ruleset/Steam.list",
     },
+    SteamShop: {
+        type: "http",
+        behavior: "classical",
+        format: "text",
+        interval: 86400,
+        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/SteamShop.list`,
+        path: "./ruleset/SteamShop.list",
+    },
 };

@@ -25,6 +25,7 @@ const baseRules = [
     `GEOSITE,pikpak,${PROXY_GROUPS.PIKPAK}`,
     `GEOSITE,twitter,${PROXY_GROUPS.TWITTER}`,
     `RULE-SET,Steam,${PROXY_GROUPS.STEAM}`,
+    `RULE-SET,SteamShop,${PROXY_GROUPS.STEAMSHOP}`,
     `GEOSITE,dlsite,${PROXY_GROUPS.DLSITE}`,
     `GEOSITE,nikke,${PROXY_GROUPS.NIKKE}`,
     `GEOSITE,pixiv,${PROXY_GROUPS.PIXIV}`,

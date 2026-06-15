@@ -363,6 +363,12 @@ export function buildProxyGroups({
             proxies: defaultProxies,
         },
         {
+            name: PROXY_GROUPS.STEAMSHOP,
+            icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/Steam.png`,
+            type: "select",
+            proxies: defaultProxies,
+        },
+        {
             name: PROXY_GROUPS.NICONICO,
             icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/niconico.png`,
             type: "select",
