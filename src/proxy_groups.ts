@@ -362,6 +362,12 @@ export function buildProxyGroups({
             type: "select",
             proxies: defaultProxies,
         },
+        {
+            name: PROXY_GROUPS.NICONICO,
+            icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/niconico.png`,
+            type: "select",
+            proxies: defaultProxies,
+        },
         lowCostNodes.length > 0 || regexFilter
             ? buildGroupByType({
                   name: PROXY_GROUPS.LOW_COST,

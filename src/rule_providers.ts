@@ -55,7 +55,7 @@ export const ruleProviders: Record<string, RuleProvider> = {
         behavior: "classical",
         format: "text",
         interval: 86400,
-        url: `${CDN_URL}/gh/powerfullz/override-rules@master/ruleset/SteamFix.list`,
+        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/SteamFix.list`,
         path: "./ruleset/SteamFix.list",
     },
     GoogleFCM: {
@@ -105,5 +105,13 @@ export const ruleProviders: Record<string, RuleProvider> = {
         interval: 86400,
         url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt",
         path: "./ruleset/GFWList.yaml",
+    },
+    Steam: {
+        type: "http",
+        behavior: "classical",
+        format: "text",
+        interval: 86400,
+        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Steam.list`,
+        path: "./ruleset/Steam.list",
     },
 };

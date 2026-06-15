@@ -19,6 +19,7 @@ export const PROXY_GROUPS = {
     BANGUMI: "Bangumi",
     DLSITE: "DLsite",
     NIKKE: "NIKKE",
+    NICONICO: "Niconico",
     CRYPTO: "加密货币",
     APPLE: "苹果服务",
     GOOGLE: "谷歌服务",
