@@ -106,20 +106,20 @@ export const ruleProviders: Record<string, RuleProvider> = {
         url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt",
         path: "./ruleset/GFWList.yaml",
     },
-    Steam: {
+    Zhilian: {
         type: "http",
         behavior: "classical",
         format: "text",
         interval: 86400,
-        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Steam.list`,
-        path: "./ruleset/Steam.list",
+        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Zhilian.list`,
+        path: "./ruleset/Zhilian.list",
     },
-    SteamShop: {
+    Other: {
         type: "http",
         behavior: "classical",
         format: "text",
         interval: 86400,
-        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/SteamShop.list`,
-        path: "./ruleset/SteamShop.list",
+        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Other.list`,
+        path: "./ruleset/Other.list",
     },
 };
