@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.12](https://github.com/powerfullz/override-rules/compare/src-v2.4.11...src-v2.4.12) (2026-06-16)
+
+
+### Other
+
+- Fix ([18ed76e](https://github.com/powerfullz/override-rules/commit/18ed76e174462a92fa95d995e14dcfb4c7622acc))
 ## [2.4.11](https://github.com/powerfullz/override-rules/compare/src-v2.4.10...src-v2.4.11) (2026-06-16)
 
 
