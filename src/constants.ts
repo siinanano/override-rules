@@ -3,6 +3,7 @@ import { createCaseInsensitiveNodeMatcher } from "./utils";
 
 export const NODE_SUFFIX = "节点";
 export const CDN_URL = "https://cdn.jsdelivr.net";
+export const GIT_URL = "https://raw.githubusercontent.com";
 
 export const PROXY_GROUPS = {
     SELECT: "选择代理",

@@ -1,4 +1,5 @@
 import { CDN_URL } from "./constants";
+import { GIT_URL } from "./constants";
 import type { RuleProvider } from "./types";
 
 export const ruleProviders: Record<string, RuleProvider> = {
@@ -71,7 +72,7 @@ export const ruleProviders: Record<string, RuleProvider> = {
         behavior: "classical",
         format: "text",
         interval: 86400,
-        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/AdditionalFilter.list`,
+        url: `${GIT_URL}/siinanano/override-rules/refs/heads/main/ruleset/AdditionalFilter.list`,
         path: "./ruleset/AdditionalFilter.list",
     },
     AdditionalCDNResources: {
@@ -111,7 +112,7 @@ export const ruleProviders: Record<string, RuleProvider> = {
         behavior: "classical",
         format: "text",
         interval: 86400,
-        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Zhilian.list`,
+        url: `${GIT_URL}/siinanano/override-rules/refs/heads/main/ruleset/Zhilian.list`,
         path: "./ruleset/Zhilian.list",
     },
     Other: {
@@ -119,7 +120,7 @@ export const ruleProviders: Record<string, RuleProvider> = {
         behavior: "classical",
         format: "text",
         interval: 86400,
-        url: `${CDN_URL}/gh/siinanano/override-rules@master/ruleset/Other.list`,
+        url: `${GIT_URL}/siinanano/override-rules/refs/heads/main/ruleset/Other.list`,
         path: "./ruleset/Other.list",
     },
 };
