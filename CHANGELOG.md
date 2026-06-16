@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.10](https://github.com/powerfullz/override-rules/compare/src-v2.4.9...src-v2.4.10) (2026-06-16)
+
+
+### Other
+
+- Update Zhilian.list ([64fbd5b](https://github.com/powerfullz/override-rules/commit/64fbd5bf2b31d2f01691734bb4e685ed998c64af))
 ## [2.4.9](https://github.com/powerfullz/override-rules/compare/src-v2.4.8...src-v2.4.9) (2026-06-16)
 
 
