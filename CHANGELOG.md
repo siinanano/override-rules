@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.13](https://github.com/powerfullz/override-rules/compare/src-v2.4.12...src-v2.4.13) (2026-06-20)
+
+
+### Other
+
+- 添加规则 ([dc91bf2](https://github.com/powerfullz/override-rules/commit/dc91bf2369e0a27ec3cd7e0d7d547159417f4871))
+- Update Other.list ([ce77654](https://github.com/powerfullz/override-rules/commit/ce776546cad64b2aff9b1803ca8dc0cc28b51d2c))
 ## [2.4.12](https://github.com/powerfullz/override-rules/compare/src-v2.4.11...src-v2.4.12) (2026-06-16)
 
 
