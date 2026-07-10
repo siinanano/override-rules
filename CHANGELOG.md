@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.15](https://github.com/powerfullz/override-rules/compare/src-v2.4.14...src-v2.4.15) (2026-07-10)
+
+
+### Other
+
+- 添加规则 ([ff4ba4e](https://github.com/powerfullz/override-rules/commit/ff4ba4eaa3d7867673d3d65e50bcb2fe6235b893))
+- Update Nikke.list ([07168f8](https://github.com/powerfullz/override-rules/commit/07168f8d92433e5afe89079b3ae8706c17ada620))
+- Update Nikke.list ([268b7ea](https://github.com/powerfullz/override-rules/commit/268b7ea4396cbfaef2a15efec368b76c0db0aa81))
+- Update Nikke.list ([0b49a00](https://github.com/powerfullz/override-rules/commit/0b49a00311fa2d4c5ce68fb977307f1aa7976dfd))
 ## [2.4.14](https://github.com/powerfullz/override-rules/compare/src-v2.4.13...src-v2.4.14) (2026-06-23)
 
 
