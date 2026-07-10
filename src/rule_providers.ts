@@ -139,4 +139,12 @@ export const ruleProviders: Record<string, RuleProvider> = {
         url: `${GIT_URL}/siinanano/override-rules/refs/heads/main/ruleset/Fantia.list`,
         path: "./ruleset/Fantia.list",
     },
+    JapanWeb: {
+        type: "http",
+        behavior: "classical",
+        format: "text",
+        interval: 86400,
+        url: `${GIT_URL}/siinanano/override-rules/refs/heads/main/ruleset/JapanWeb.list`,
+        path: "./ruleset/JapanWeb.list",
+    },
 };
