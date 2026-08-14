@@ -1,6 +1,7 @@
 IP-CIDR,43.130.0.0/16,no-resolve
 IP-CIDR,43.153.0.0/16,no-resolve
 IP-CIDR,43.163.0.0/16,no-resolve
+IP-CIDR,43.133.0.0/16,no-resolve
 DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,fleetlogd.com
 DOMAIN-SUFFIX,jupiterlauncher.com
